@@ -10,64 +10,6 @@ body{
     width: 100%;
 	margin: auto;
 }
-.header-top{
-     background: #000;
- }
-.header-top .row {
-    padding: 40px 0;
-}
- /* logo */
- 
- /* endlogo */
- /* button menu hover */
- #menu-holder {
-    position: absolute;
-    top: 50%;
-    right: 7%;
-    margin-top: -30px;
-    z-index: 999;
-}
- .right {
-    float: right;
-}
- .lines {
-    display: inline-block;
-    width: 28px;
-    height: 4px;
-    transition: 300ms;
-    background: #ffff;
-    position: relative;
-}
-.lines:before, .lines:after {
-    display: inline-block;
-    width: 28px;
-    height: 4px;
-    transition: 300ms;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    content: "";
-    -ms-transform-origin: 2px center;
-    -moz-transform-origin: 2px center;
-    -webkit-transform-origin: 2px center;
-    transform-origin: 2px center;
-}
-.lines:before {
-    top: 7px;
-}
-.lines:after {
-    top: -7px;
-}
- /* end button menu hover */
- /* menu */
-nav.menu-nav{
-     background-image: url("./assets/image/backround-menu.jpg");
- }
- .menu ul {
-    list-style: none;
-    text-align: center;
-}
-/* end menu */
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
