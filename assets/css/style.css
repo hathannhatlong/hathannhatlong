@@ -8,7 +8,9 @@
     padding: 0;
 }
 
-
+html {
+    margin: 0;
+}
 body{
     line-height: 1.625;
 	font-size: 16px;
@@ -275,7 +277,64 @@ span.field-title {
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up) */
+
+}
+@media (max-width: 576px) { 
+
+    .content-about-me-all {
+        display: block;
+    }
+
+    .content-about-me-all {
+        display: block;
+    }
+    .content-about {
+        width: 100%;
+        padding: 10px;
+    }
+    .img-me-about {
+        width: 100%;
+        padding: 10px;
+    }
+    svg.triangle {
+        position: absolute;
+        top: 37px;
+        left: 76%;
+        width: 18%;
+        height: auto;
+        z-index: 1;
+    }
+ 
+
+}
+
+ /* Medium devices (tablets, 768px and up)  */
+@media (max-width: 768px) { 
+    .content-about {
+        width: 50%;
+        padding: 0px 20px;
+    }
+    .content-about-me-all{
+    display: flex;
+    }
+
+    .detail-about li {
+    list-style: none;
+    margin-bottom: 0px;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 375px) {
     .ul-menu-header li {
         list-style: none;
@@ -343,29 +402,22 @@ span.field-title {
         display: block;
     }
 
-}
-@media (max-width: 576px) { 
-
     .content-about-me-all {
         display: block;
     }
-}
-
- /* Medium devices (tablets, 768px and up)  */
-@media (max-width: 768px) { 
-    .content-about-me-all {
-        display: block;
+    .content-about {
+        width: 100%;
+        padding: 10px;
     }
-
- }
-
-/* // Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-
-
-}
+    .img-me-about {
+        width: 100%;
+        padding: 10px;
+    }
+    svg.triangle {
+        position: absolute;
+        top: 37px;
+        left: 76%;
+        width: 18%;
+        height: auto;
+        z-index: 1;
+    }
